@@ -1,9 +1,9 @@
 let tbody = document.getElementById("output");
 
 let tr = document.createElement("tr");
+tr.setAttribute("id","loading");
 let td1 = document.createElement("td");
 td1.setAttribute("colspan","2");
-td1.setAttribute("id","loading");
 td1.innerText = "Loading..."
 tr.append(td1);
 tbody.append(tr);
