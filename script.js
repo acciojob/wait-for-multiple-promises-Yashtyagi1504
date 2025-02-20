@@ -1,7 +1,8 @@
 let tbody = document.getElementById("output");
 
 let tr = document.createElement("tr");
-tr.setAttribute("id","loading");
+tr.id = "loading"
+// tr.setAttribute("id","loading");
 let td1 = document.createElement("td");
 td1.setAttribute("colspan","2");
 td1.innerText = "Loading..."
